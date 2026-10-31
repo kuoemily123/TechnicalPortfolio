@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Emily Kuo – Mechanical and mechatronics engineering portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+:root{--bg:#f6f8f9;--surface:#ffffff;--ink:#14202b;--muted:#51606d;--line:#d9e1e6;--accent:#0f6f78;--accent-ink:#ffffff;--tint:#e3f0f1;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f171d;--surface:#16212a;--ink:#eaf0f3;--muted:#a3b1bb;--line:#2a3945;--accent:#5cc4cd;--accent-ink:#0f171d;--tint:#17303a}}
+:root[data-theme="dark"]{--bg:#0f171d;--surface:#16212a;--ink:#eaf0f3;--muted:#a3b1bb;--line:#2a3945;--accent:#5cc4cd;--accent-ink:#0f171d;--tint:#17303a}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.6 "Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:0 1.25rem}
+h1,h2,h3{font-family:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;line-height:1.1;margin:0}
+a{color:var(--accent)}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+header{padding:4.5rem 0 3rem}
+h1{font-size:clamp(2.6rem,8vw,4.6rem);font-weight:700;letter-spacing:-.02em}
+.lede{font-family:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;font-weight:500;font-size:clamp(1.3rem,3.4vw,1.8rem);line-height:1.25;margin:1rem 0 0;max-width:30ch}
+.sub{color:var(--muted);margin:1.1rem 0 0;max-width:58ch}
+.links{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.6rem}
+.btn{display:inline-block;padding:.6rem 1.1rem;border-radius:999px;border:1.5px solid var(--accent);color:var(--accent);text-decoration:none;font-weight:600}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.btn:hover{filter:brightness(1.08)}
+section{padding:2rem 0}
+h2{font-size:1.5rem;margin-bottom:1.2rem}
+.feature{background:var(--surface);border:1px solid var(--line);border-left:6px solid var(--accent);border-radius:6px;padding:1.6rem 1.5rem}
+.meta{color:var(--muted);font-size:.95rem;margin:.4rem 0 1rem}
+
+.feature h3{font-size:1.5rem}
+.feature ul{margin:1rem 0 1.2rem;padding-left:1.2rem}
+.feature li{margin:.35rem 0}
+figure{margin:1.4rem 0;padding:0}figure img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:4px;background:#fff}figcaption{color:var(--muted);font-size:.95rem;margin-top:.5rem}.tablewrap{overflow-x:auto;margin:1rem 0 1.6rem}table{border-collapse:collapse;width:100%;font-size:.98rem;font-variant-numeric:tabular-nums}caption{text-align:left;color:var(--muted);font-size:.95rem;padding-bottom:.5rem}th,td{text-align:left;padding:.4rem .8rem .4rem 0;border-bottom:1px solid var(--line);white-space:nowrap}th{font-weight:600}.feature+.feature{margin-top:2rem}h4.sub{font-size:1.15rem;margin:1.6rem 0 .6rem}tr.grp th{background:var(--tint);color:var(--ink);padding:.5rem .8rem}figure.narrow{max-width:620px}figure.tall{max-width:320px}.group{margin-top:2rem}
+.group h3{font-size:1.05rem;color:var(--muted);font-weight:500;margin-bottom:.4rem}
+.row{display:grid;grid-template-columns:1fr auto;gap:.3rem 1.5rem;align-items:baseline;padding:1.1rem 0;border-top:1px solid var(--line)}
+.row:last-child{border-bottom:1px solid var(--line)}
+.row h4{margin:0;font:700 1.15rem/1.25 "Bricolage Grotesque","Helvetica Neue",Arial,sans-serif}
+.row p{margin:.25rem 0 0;color:var(--muted);grid-column:1}
+.row a{grid-column:2;grid-row:1;white-space:nowrap;font-weight:600}
+
+footer{padding:2.5rem 0 3.5rem;border-top:1px solid var(--line);margin-top:2rem}
+footer p{margin:.3rem 0}
+@media (max-width:560px){header{padding-top:3rem}.row{grid-template-columns:1fr}.row a{grid-column:1;grid-row:auto;margin-top:.4rem}}
+</style>
+</head>
+<body>
+<!-- HOW TO UPDATE THIS PAGE
+1. Change text: find it in this file and retype it. Keep the tags around it.
+2. Add a project: copy a whole project article block (it starts with the article tag and ends with the closing article tag) and paste it after the last one, then edit the title, text and image file names.
+3. Add or replace images: upload the file to the images folder, then point the image tag at its file name.
+-->
+<header><div class="wrap">
+<h1>Emily Kuo</h1>
+<p class="lede">Engineer who designs, fabricates and validates mechanical and soft robotic systems.</p>
+<p class="sub">M.S. student in Mechanical Engineering (Controls &amp; Mechatronics) at UC San Diego. B.S. Bioengineering, UC Riverside. Hands-on experience in mechanical design, fabrication, kinematics and simulation.</p>
+<div class="links">
+<a class="btn primary" href="mailto:kuoemily123@gmail.com">Email me</a>
+<a class="btn" href="https://f3f4ab9e-9981-47a2-bf11-5bee0a62fe60.filesusr.com/ugd/5ada24_85c8c959271a499794f2933544ba3cab.pdf">Resume (PDF)</a>
+<a class="btn" href="http://www.linkedin.com/in/emily-kuo-engineer">LinkedIn</a>
+</div>
+</div></header>
+
+<main class="wrap">
+<section aria-labelledby="featured">
+<h2 id="featured">Projects</h2>
+<article class="feature">
+<h3>Infant Model for Preliminary Testing of Upper Body Pediatric Assistive Devices</h3>
+<p class="meta">Undergraduate research, Pediatric Rehabilitation Technology Lab, Bourns College of Engineering (BCOE), University of California, Riverside. Oct 2023 – May 2026</p>
+<p><strong>Published in <em>Data in Brief</em>.</strong> <a href="https://doi.org/10.1016/j.dib.2026.113099">Read the paper</a></p>
+<p>I developed a physical model of a 6-month-old infant’s upper body for bench testing of pediatric assistive devices. Existing infant models are either cost-prohibitive or lack the anthropometric accuracy and joint mobility needed for meaningful device evaluation.</p>
+<ul>
+<li><strong>Design:</strong> Torso, shoulders, upper arms, forearms and hands connected by articulated joints designed to replicate realistic range of motion.</li>
+<li><strong>Method:</strong> Design and manufacturing guided by anthropometric data for infant body proportions, mass distribution and joint kinematics.</li>
+<li><strong>Validation:</strong> Each segment was checked against target size, mass and mobility. Center of mass was located with the plumb line method and joint range of motion was measured with a goniometer. Both were compared with literature-reported values (tables below).</li>
+<li><strong>Scalability:</strong> The parametric design can be scaled to represent older pediatric populations, giving researchers a flexible, low-cost framework for testing devices before clinical trials.</li>
+</ul>
+<figure><img src="infant-model-cad.jpg" alt="CAD models with dimensioned views of the hand, wrist, shoulder, torso, arm, rod stand, base and full infant model" loading="lazy"><figcaption>CAD models with detailed views of individual parts: (a) Hand segment, (b) Wrist joint, (c) Shoulder joint, (d) Torso, (e) Upper arm and forearm with elbow joint, (f) Rod stand, (g) Base for structural support, and (h) Full model. All measurements are provided in centimeters.</figcaption></figure>
+<figure><img src="infant-model-com.jpg" alt="Photos of the plumb line method used to find the center of mass of the arm and torso segments" loading="lazy"><figcaption>Center of mass (COM) location in upper arms, forearms, and torso determined using the plumb line method. (a,b) The position of the weighted string is highlighted in blue under both the vertical and horizontal testing conditions, and (c) the intersection points annotated in yellow indicate the COM location of the segment.</figcaption></figure>
+<div class="tablewrap"><table><caption>Model and literature-reported center of mass (COM) values, as % of segment length from the proximal end.</caption>
+<thead><tr><th>Body segment</th><th>Model (%)</th><th>Literature (%)</th></tr></thead>
+<tbody><tr><td>Upper arm</td><td>41.00</td><td>44.28</td></tr><tr><td>Forearm</td><td>47.00</td><td>45.41</td></tr><tr><td>Hand</td><td>44.16</td><td>44.95</td></tr><tr><td>Torso</td><td>66.00</td><td>–</td></tr></tbody></table></div>
+<figure><img src="infant-model-rom.jpg" alt="Goniometer measurements of range of motion for the shoulder, elbow, PIP and wrist joints" loading="lazy"><figcaption>ROM in degrees of the joints measured using a goniometer. (a) Shoulder joint, (b) Elbow joint, (c) Proximal interphalangeal (PIP) joint, and (d) Wrist joint.</figcaption></figure>
+<div class="tablewrap"><table><caption>Model and literature-reported joint range of motion (ROM), in degrees.</caption>
+<thead><tr><th>Joint</th><th>Movement</th><th>Model (°)</th><th>Literature (°)</th></tr></thead>
+<tbody>
+<tr><td>Shoulder</td><td>Flexion</td><td>180</td><td>172–180</td></tr>
+<tr><td></td><td>Extension</td><td>89</td><td>79–89</td></tr>
+<tr><td></td><td>Abduction / adduction</td><td>185 / 180</td><td>177–187</td></tr>
+<tr><td>Elbow</td><td>Flexion</td><td>135</td><td>148–158</td></tr>
+<tr><td></td><td>Extension</td><td>2</td><td>2</td></tr>
+<tr><td>Wrist</td><td>Flexion</td><td>80</td><td>75</td></tr>
+<tr><td></td><td>Extension</td><td>60</td><td>60</td></tr>
+<tr><td></td><td>Radial deviation</td><td>15</td><td>15</td></tr>
+<tr><td></td><td>Ulnar deviation</td><td>33</td><td>40</td></tr>
+<tr><td>MCP, DIP, PIP</td><td>Flexion</td><td>100</td><td>–</td></tr>
+</tbody></table></div>
+<a class="btn primary" href="https://doi.org/10.1016/j.dib.2026.113099">Read the paper</a>
+</article>
+<article class="feature" id="microfluidic">
+<h3>Design of a Microfluidic Device for Synthesis of Hollow-Core BIPORES Fibers</h3>
+<p class="meta">Undergraduate capstone project, Biomaterials Innovation Laboratory, Bourns College of Engineering (BCOE), University of California, Riverside. Sept 2025 – May 2026. Advisors: Dr. Iman Noshadi and Kevin Dalsania.</p>
+<p>I designed and fabricated, with a team of six, a reusable, modular microfluidic device that continuously extrudes hollow-core BIPORES (BIJEL-Integrated Porous Engineered Systems) fibers for vascular tissue engineering scaffolds. BIPORES are synthetic biomaterial scaffolds with an interconnected porous architecture that mimics native vascular tissue.</p>
+<ul>
+<li><strong>Problem:</strong> Traditional vascular scaffolds lack the interconnected architecture cells need to communicate and mature into tissue, and existing microfluidic devices cannot produce continuous hollow BIPORES fibers.</li>
+<li><strong>Design:</strong> A three-segment coaxial capillary assembly with compression fittings, a rail-guided alignment system and 23-gauge blunt needle fluid inlets. The custom rail system cut assembly time by 3x compared with manual assembly.</li>
+<li><strong>My contribution:</strong> Device design, fabrication, and validation through scanning electron microscopy (SEM) and statistical fiber geometry analysis.</li>
+</ul>
+<figure><img src="microfluidic-cad.jpg" alt="CAD drawing of the final microfluidic device with labeled segments, screws, 23-gauge needle tips, compression fitting and ferrules" loading="lazy"><figcaption>Current iteration CAD drawing of the final microfluidic device version with labeled components.</figcaption></figure>
+<figure><img src="microfluidic-setup.jpg" alt="Experimental setup for hollow BIPORES fiber extrusion with syringe pumps, microfluidic device, UV flashlight and water bath" loading="lazy"><figcaption><strong>Device setup for hollow BIPORES fiber extrusion.</strong></figcaption></figure>
+<h4 class="sub">Targets and results</h4>
+<div class="tablewrap"><table><thead><tr><th>Objective</th><th>Target</th><th>Result</th></tr></thead><tbody>
+<tr><td>Fiber geometry</td><td>100–300 µm bore, 200–500 µm outer diameter</td><td>More than 80% of fibers within target ranges</td></tr>
+<tr><td>Continuous extrusion</td><td>15 minutes</td><td>Up to 20 minutes</td></tr>
+<tr><td>Hollow-core formation</td><td>–</td><td>100% hollow-core fibers, validated by SEM</td></tr>
+<tr><td>Ease of assembly</td><td>25 minutes</td><td>3x faster than manual assembly with the rail system</td></tr>
+</tbody></table></div>
+<figure><img src="microfluidic-results.jpg" alt="Histograms of measured BIPORES fiber inner and outer diameters with the target ranges marked by dotted red lines" loading="lazy"><figcaption>Histogram of measured BIPORES fiber inner diameters (left) and outer diameters (right) used for post-extrusion dimensional validation. The dotted red lines represent the ideal range in which the fiber diameters should fall under.</figcaption></figure>
+<p class="meta">Fiber geometry was analyzed with a one-sample equivalence test (α = 0.05, df = 69): inner diameter p = 4.70 × 10<sup>−10</sup>, outer diameter p = 2.24 × 10<sup>−10</sup>.</p>
+<h4 class="sub">Next developments</h4>
+<ul>
+<li>Integrate a UV curing module at the device tip for controlled polymerization.</li>
+<li>Achieve a 30-second mounting time onto a custom bioprinter for rapid device setup and switching.</li>
+<li>Seed the scaffold with endothelial cells to promote lumen formation.</li>
+</ul>
+<figure><img src="microfluidic-next-steps.jpg" alt="Concept of the microfluidic device with UV curing module mounted on a bioprinter to extrude scaffolds seeded with endothelial cells" loading="lazy"><figcaption>Microfluidic device with an integrated UV curing module mounted onto a custom-made bioprinter for continuous fiber extrusion. The extruded scaffold is seeded with endothelial and supporting cells to fabricate synthetic vascular structures.</figcaption></figure>
+<a class="btn primary" href="microfluidic-poster.pdf">View the project poster (PDF)</a>
+</article>
+<article class="feature" id="continuum">
+<h3>Two-Segment Continuum Robot Arm</h3>
+<p class="meta">Class project, University of California, Riverside. April 2026 – May 2026</p>
+<p>I modified and built a two-segment continuum spine robot based on the ENDO platform for surgical arm applications. Servo motors drive spine discs and ligaments through pulleys to produce bending motion in two independently controlled segments.</p>
+<ul>
+<li><strong>Design:</strong> I modified the platform in SolidWorks to a two-segment arm. Segment 1 uses shorter tendons tied off at the segment tip (pulley radius R₁ = 10 mm). Segment 2 uses full-length tendons (pulley radius R₂ = 20 mm).</li>
+<li><strong>Experiment:</strong> A motor isolation experiment on all 8 motors characterized the bending behavior, comparing measured bend angles with kinematically predicted values over three trials per motor.</li>
+<li><strong>Result:</strong> Every motor under-shot its predicted angle, with errors of about 49% to 69% across both segments. Under the current design parameters, the arm does not reach its desired maximum range of motion.</li>
+<li><strong>Likely cause:</strong> I attached the backbone to the disks with super glue, the only adhesive on hand. It cures stiffer than the design assumes and likely hindered bending, so the arm moved less than the kinematic model predicts.</li>
+<li><strong>Next step:</strong> Rebuild with a more flexible adhesive and repeat the motor isolation experiment to check whether the bend angles move closer to the predicted values.</li>
+</ul>
+<figure><img src="continuum-robot-model.jpg" alt="SolidWorks model of the two-segment continuum robot with housing, motors, pulleys and spine components labeled" loading="lazy"><figcaption>SolidWorks model of the two-segment robot. The housing holds the servo motors, motor holders, servo hubs and pulleys, with a photo of the wired electronics at upper left. The arm is built from spine disks, spine ligaments and a spine lock, grouped into Segment 1 (blue) and Segment 2 (teal).</figcaption></figure>
+<div class="tablewrap"><table><caption>Motor isolation experiment: measured bend angle (θ₂) for each motor over three trials, compared with the kinematically predicted angle.</caption>
+<thead><tr><th>Motor</th><th>Tendon direction</th><th>Servo input (°)</th><th>Predicted (°)</th><th>Trial 1 (°)</th><th>Trial 2 (°)</th><th>Trial 3 (°)</th><th>Mean (°)</th><th>Error vs predicted</th></tr></thead><tbody>
+<tr class="grp"><th colspan="9">Segment 1: short tendons tied off at the segment tip, pulley radius R₁ = 10 mm</th></tr>
+<tr><td>M1</td><td>y+</td><td>90</td><td>63</td><td>20</td><td>21</td><td>30</td><td>23.67</td><td>−62.43%</td></tr>
+<tr><td>M2</td><td>x+</td><td>90</td><td>63</td><td>25</td><td>23</td><td>22</td><td>23.33</td><td>−62.96%</td></tr>
+<tr><td>M3</td><td>y−</td><td>90</td><td>63</td><td>24</td><td>23</td><td>24</td><td>23.67</td><td>−62.43%</td></tr>
+<tr><td>M4</td><td>x−</td><td>90</td><td>63</td><td>19</td><td>19</td><td>20</td><td>19.33</td><td>−69.31%</td></tr>
+<tr class="grp"><th colspan="9">Segment 2: full-length tendons tied off at the Segment 2 tip, pulley radius R₂ = 20 mm</th></tr>
+<tr><td>M5</td><td>y+</td><td>60</td><td>88</td><td>45</td><td>45</td><td>43</td><td>44.33</td><td>−49.62%</td></tr>
+<tr><td>M6</td><td>x+</td><td>60</td><td>88</td><td>31</td><td>30</td><td>31</td><td>30.67</td><td>−65.15%</td></tr>
+<tr><td>M7</td><td>y−</td><td>60</td><td>88</td><td>36</td><td>35</td><td>33</td><td>34.67</td><td>−60.61%</td></tr>
+<tr><td>M8</td><td>x−</td><td>60</td><td>88</td><td>23</td><td>30</td><td>30</td><td>27.67</td><td>−68.56%</td></tr>
+</tbody></table></div>
+<figure><img src="continuum-robot-bend-angles.jpg" alt="Bar chart of measured bend angle for motors M1 to M8 compared with predicted angles" loading="lazy"><figcaption>Mean measured bend angle for each motor compared with the predicted angle (black). Segment 1 motors (blue) were predicted at 63° and Segment 2 motors (brown) at 88°. Error bars show the variation across trials.</figcaption></figure>
+<p>Segment 1 motors averaged 19° to 24° against a 63° prediction. Segment 2 motors averaged 28° to 44° against 88°, and the best result, motor 5 at 44°, was still about 50% below prediction.</p>
+</article>
+<article class="feature" id="kira">
+<h3>Descriptor: A Dataset of Full-body Kinematics of Infants Sitting and Reaching in Natural Settings (KIRA)</h3>
+<p class="meta">Undergraduate research, Pediatric Rehabilitation Technology Lab, Bourns College of Engineering (BCOE), University of California, Riverside. April 2023 – May 2026</p>
+<p><strong>Associated paper under review.</strong></p>
+<p>I supported the development of an automated system that classifies types of infant motion from video. The system uses pose estimation and motion tracking software to analyze movement patterns, with the goal of reducing the manual effort needed to assess infant motor behavior in a research setting.</p>
+<ul>
+<li><strong>Need:</strong> Validating the automated system’s accuracy required human-labeled movement data as a ground truth reference.</li>
+<li><strong>Method:</strong> Using OpenPose for skeletal keypoint tracking and Kinovea for detailed motion analysis, I manually annotated and classified video clips of infant movement to build the comparison dataset.</li>
+</ul>
+<p class="meta"><em>The images below are not from this dataset, because the paper is still under review. They come from the same tracking software used in the work and illustrate the approach.</em></p>
+<figure class="tall"><img src="kira-keypoints.jpg" alt="Skeleton of numbered body keypoints from pose estimation, with colored limb segments" loading="lazy"><figcaption>Example of skeletal keypoint tracking from pose estimation software. Numbered points mark the head, shoulders, elbows, wrists, hips, knees and ankles, and the colored segments connect them into a full-body skeleton that can be followed frame by frame.</figcaption></figure>
+<figure><img src="kira-tracking.jpg" alt="Two video frames of a person standing with colored tracking circles on body landmarks, and during a sideways fall with colored motion paths" loading="lazy"><figcaption>Example of motion tracking in video analysis. Colored circles mark body landmarks in the starting frame (left), and the colored paths in the later frame (right) trace how each tracked point moves through the movement.</figcaption></figure>
+</article>
+<article class="feature" id="stent">
+<h3>CFD Analysis of Stent Designs for Pulmonary Hemorrhage Treatment</h3>
+<p class="meta">Class project, University of California, Riverside. January 2025 – March 2025</p>
+<p>I conducted a computational study comparing three stent designs (tube, torus and ring) for how well each blocks blood flow through a torn pulmonary capillary, to relieve the injury caused by pulmonary hemorrhage.</p>
+<ul>
+<li><strong>Geometry:</strong> Anatomical dimensions of an average adult lung capillary were set from a literature review and used for all models. The three stent geometries were modeled in SolidWorks and imported into COMSOL for fluid dynamics simulation.</li>
+<li><strong>Simulation:</strong> Each design was evaluated under physiologically accurate blood flow and material properties. The simulations produced velocity, pressure and shear stress distributions for both healthy and torn capillary conditions.</li>
+<li><strong>Result:</strong> The torus stent was the most effective of the three designs at restricting blood flow at the site of injury.</li>
+</ul>
+<figure><img src="stent-capillary-flow.jpg" alt="Velocity and pressure color maps for a healthy capillary and a torn capillary" loading="lazy"><figcaption>Baseline simulations of a healthy capillary (left) and a torn capillary (right). (a) Velocity: flow runs the full length of the healthy vessel, while in the torn vessel part of the flow escapes through the tear at the top. (b) Pressure: pressure drops along the vessel from inlet to outlet in both cases.</figcaption></figure>
+<figure><img src="stent-designs-comparison.jpg" alt="Velocity, pressure and shear stress color maps for the tube, torus and ring stents, each with an enlarged view of the stent region" loading="lazy"><figcaption>Simulation results for the tube, torus and ring stents placed over the tear in the torn capillary, each shown as a full-vessel view with an enlarged view of the stent region beside it. (a) Velocity, (b) pressure and (c) shear stress distributions.</figcaption></figure>
+</article>
+<article class="feature" id="actuator">
+<h3>Pneumatic Actuators for an Infant Wearable Exosuit</h3>
+<p class="meta">Undergraduate research, Pediatric Rehabilitation Technology Lab, Bourns College of Engineering (BCOE), University of California, Riverside. April 2023 – May 2023</p>
+<p>I led the design, fabrication and assembly of pneumatic actuators intended for a wearable exosuit for infants. The goal was to evaluate which actuator sizes and shapes perform best for integration into a soft wearable assistive device.</p>
+<ul>
+<li><strong>Construction:</strong> Actuators are heat-sealed from thermoplastic sheets into different geometric shapes. Inner and outer border seams control the inflation geometry.</li>
+<li><strong>Assembly:</strong> Each unit has a rubber washer and an air inlet tube for pneumatic actuation. Units are stacked in alternating layers to form a complete actuator module.</li>
+<li><strong>Behavior:</strong> When pressurized with an air pump, the actuators expand predictably from a flat resting state to a fully inflated configuration, producing the motion needed to assist infant limb movement.</li>
+</ul>
+<figure class="narrow"><img src="actuator-fabrication.jpg" alt="Four fabrication steps: heat-sealed actuator shapes with inner and outer borders, a hole made at the center of one piece, the two sides ironed together along the border, and washers and actuator pieces assembled on tubing" loading="lazy"><figcaption>Fabrication process. Actuator shapes are marked with a thin border, with twice the number of pieces as actuators. A hole for the tubing is made in the center of one piece of each pair, the two pieces are sealed together along the border as thin a seal as possible, and the sealed units are assembled with alternating washers on the air tube.</figcaption></figure>
+<figure><img src="actuator-inflation.jpg" alt="Actuator module shown flat with a tube and rubber washer, partially inflated, and fully inflated" loading="lazy"><figcaption>Actuator module during inflation. (a) The stack at rest in its flat state, with the air inlet tube and rubber washer on the top layer. (b) The module partway through inflation as the layers begin to separate. (c) The fully inflated actuator.</figcaption></figure>
+<figure><img src="actuator-inflated.jpg" alt="Side view of a fully inflated six-unit actuator module" loading="lazy"><figcaption>Side view of a fully inflated six-unit actuator module.</figcaption></figure>
+</article>
+</section>
+
+</main>
+
+<footer><div class="wrap">
+<p><strong>Interested in working together?</strong></p>
+<p><a href="mailto:kuoemily123@gmail.com">kuoemily123@gmail.com</a> · <a href="http://www.linkedin.com/in/emily-kuo-engineer">LinkedIn</a> · <a href="https://f3f4ab9e-9981-47a2-bf11-5bee0a62fe60.filesusr.com/ugd/5ada24_85c8c959271a499794f2933544ba3cab.pdf">Resume</a></p>
+</div></footer>
+</body>
+</html>
